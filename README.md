@@ -187,3 +187,5 @@ This release extends the 0.4.1 defensive monitoring MVP with deterministic capab
 The `com.sentineldroid.intervention` package contains only interfaces, no-op implementations, and a platform-state verifier. The base build does not provision Device Owner, does not revoke another app's permissions, does not suspend packages, and does not implement destructive intervention.
 
 The Android platform limitations documented in the threat model still apply: a normal app cannot arbitrarily read another app's private sandbox, intercept arbitrary Binder traffic, or decrypt arbitrary HTTPS.
+
+Tested auto-commit workflow.
