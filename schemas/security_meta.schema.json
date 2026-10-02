@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SentinelDroid Security Meta",
+  "type": "object",
+  "required": ["authority", "event", "reasons", "evidence_ids"],
+  "properties": {
+    "authority": {"const": "SECURITY_META"},
+    "event": {"const": "EVIDENCE_MANIPULATION_DETECTED"},
+    "reasons": {"type": "array", "items": {"type": "string"}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

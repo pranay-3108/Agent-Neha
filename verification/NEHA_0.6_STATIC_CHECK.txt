@@ -1,0 +1,12 @@
+NEHA 0.6 static verification
+
+Base intervention checks:
+- No DeviceAdminReceiver under app/src/main
+- No dpm.setPermissionGrantState in app/src/main
+- No package suspension APIs in app/src/main
+- No implementation of real InterventionExecutor in base build
+- SniperPlugIn remains no-op
+- SNIPER_ENABLED default is false
+
+Build environment note:
+Android SDK/Gradle Android toolchain was not available in the packaging environment, so this is not an Android compile claim.

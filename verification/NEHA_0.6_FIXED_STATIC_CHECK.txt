@@ -1,0 +1,24 @@
+NEHA / SentinelDroid 0.6.0 FIXED STATIC VERIFICATION
+
+PASS: intervention seam signatures match the agreed specification.
+PASS: InterventionPlanner.plan(...) signature and InterventionPlan fields match.
+PASS: InterventionExecutor.fire(ShotRequest) and ShotRequest/ShotResult fields match.
+PASS: InterventionRegistry.install(planner?, executor?, verifier?) uses nullable defaults.
+PASS: base executor is NoOp; real verifier remains observation-only.
+PASS: app/build.gradle.kts defines SNIPER_ENABLED=false and create("sniper").
+PASS: base manifest has no DeviceAdminReceiver declaration.
+PASS: base source has no setPermissionGrantState or package-suspension implementation.
+PASS: CapabilityMonitor.observeAndReconcile(...) is the single public reconciliation gate.
+PASS: MainActivity, MonitorService, MonitorTickReceiver and PackageChangeReceiver call the mandatory gate.
+PASS: old reconcile/recordInstalledPackage/initializeBaseline bypass entry points removed.
+PASS: PACKAGE_REPLACED and replacing PACKAGE_ADDED use source PACKAGE_REPLACE.
+PASS: normal PACKAGE_ADDED uses source PACKAGE_ADD.
+PASS: security metadata and capability scar records are sealed before baseline cache update.
+PASS: CapabilityMonitor is synchronized for same-process read/compare/write races.
+PASS: static tool verification completed.
+
+NOT RUN IN THIS ENVIRONMENT:
+- Android SDK / Gradle Android compilation
+- adb install/device smoke test
+
+Reason: packaging environment has Java/Kotlin compilers but no Android SDK toolchain and its project helper gradlew requires Windows PowerShell.

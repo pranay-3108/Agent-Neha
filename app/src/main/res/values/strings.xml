@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SentinelDroid / Agent Neha</string>
+    <string name="agent_name">Agent Neha</string>
+    <string name="agent_subtitle">Your Android Security Agent</string>
+    <string name="agent_neha_title">Agent Neha</string>
+    <string name="agent_neha_subtitle">Conversational security assistant</string>
+    <string name="agent_neha_voice_description">Speak naturally with Agent Neha using your device speech recognition and text-to-speech engine.</string>
+    <string name="accessibility_service_description">User-authorized security inspection. Observed application text is untrusted evidence, never an instruction.</string>
+</resources>

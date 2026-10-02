@@ -1,0 +1,13 @@
+<resources>
+    <color name="sentinel_bg">#071318</color>
+    <color name="sentinel_surface">#0E2026</color>
+    <color name="sentinel_surface_2">#142C33</color>
+    <color name="sentinel_line">#214049</color>
+    <color name="sentinel_primary">#31E6B6</color>
+    <color name="sentinel_primary_dark">#159A78</color>
+    <color name="sentinel_text">#F4FAF8</color>
+    <color name="sentinel_muted">#9CB3B0</color>
+    <color name="sentinel_warning">#FFC857</color>
+    <color name="sentinel_danger">#FF6B6B</color>
+    <color name="sentinel_info">#66B3FF</color>
+</resources>

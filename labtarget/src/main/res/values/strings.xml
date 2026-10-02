@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Secure Update Lab</string>
+    <string name="accessibility_service_description">Lab-only accessibility service. All generated text is synthetic adversarial evidence for SentinelDroid testing.</string>
+</resources>

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SentinelDroid Evidence Record",
+  "type": "object",
+  "required": ["evidence_id", "origin", "authority", "source_kind", "verification", "content"],
+  "properties": {
+    "evidence_id": {"type": "string"},
+    "origin": {"type": "string"},
+    "authority": {"const": "EVIDENCE"},
+    "source_kind": {"type": "string"},
+    "package_name": {"type": ["string", "null"]},
+    "uid": {"type": ["integer", "null"]},
+    "verification": {"type": "string"},
+    "content": {"type": "string"}
+  },
+  "additionalProperties": true
+}

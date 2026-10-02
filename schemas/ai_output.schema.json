@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SentinelDroid AI Analyst Output",
+  "type": "object",
+  "required": ["facts", "inferences", "hypotheses", "unknowns", "proposed_action"],
+  "properties": {
+    "facts": {"type": "array"},
+    "inferences": {"type": "array"},
+    "hypotheses": {"type": "array"},
+    "unknowns": {"type": "array"},
+    "proposed_action": {"type": ["object", "null"]}
+  },
+  "additionalProperties": false
+}

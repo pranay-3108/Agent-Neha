@@ -1,0 +1,15 @@
+PASS | clean data remains unflagged
+PASS | phantom subsystem is detected
+PASS | trusted security meta is generated
+PASS | spaced JSON role claim is detected
+PASS | spaced JSON authorization claim is detected
+PASS | AI payload retains attacker evidence text
+PASS | AI payload retains manipulation classification
+PASS | evidence chain verifies before tamper
+PASS | evidence chain rejects content tampering
+PASS | destructive LLM proposal is denied by policy
+PASS | non-destructive proposal survives policy
+PASS | AI-to-AI repetition does not become verified
+PASS | unknown action is denied
+
+Result: 13/13 checks passed

@@ -1,0 +1,12 @@
+NEHA 0.6.0 FIXED3 STATIC PREFLIGHT
+=================================
+XML parse: PASS
+Package/path consistency: PASS
+Kotlin brace balance heuristic: FAIL
+Interface contract checks: PASS
+Base forbidden-token scan: PASS
+Protected files: byte content not modified in this repair.
+
+Expected protected-file compile dependency warning:
+PrecisionIntervention.kt and RevertReceiver.kt import kotlinx.coroutines, while app/build.gradle.kts declares no coroutines dependency.
+This was NOT changed because the supplied protocol forbids modifying protected files and forbids adding new dependencies.
